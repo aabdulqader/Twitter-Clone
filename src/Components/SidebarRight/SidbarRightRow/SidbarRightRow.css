@@ -1,0 +1,53 @@
+.sidbarRightRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  cursor: pointer;
+  position: relative;
+}
+.sidbarRightRow__right {
+  display: flex;
+  align-items: center;
+}
+
+.sidbarRightRow:hover {
+  background-color: #15202b;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.sidbarRightRow__right > h3 {
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(235, 235, 235);
+}
+
+.sidbarRightRow__avatar {
+  width: 35px !important;
+  height: 35px !important;
+}
+.sidbarRightRow > button {
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  height: 30px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.sidbarRightRow > button:hover {
+  background-color: #1da0f236;
+}

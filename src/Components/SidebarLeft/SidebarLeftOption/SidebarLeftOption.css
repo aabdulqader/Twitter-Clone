@@ -1,0 +1,33 @@
+.sidebarLeftOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s ease-in;
+  -webkit-transition: transform 0.2s ease-in;
+  -moz-transition: transform 0.2s ease-in;
+  -ms-transition: transform 0.2s ease-in;
+  -o-transition: transform 0.2s ease-in;
+}
+.sidebarLeftOption:hover {
+  background: #253341;
+  color: #1da1f2;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.sidebarLeftOption > h2 {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.sidebarLeftOption > .MuiSvgIcon-root {
+  font-size: 30px;
+}
+
+.sidebarLeftOption--active {
+  color: #1da1f2;
+}

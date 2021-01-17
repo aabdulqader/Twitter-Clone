@@ -1,0 +1,75 @@
+.tweetBox {
+  border-bottom: 1px solid #38444d;
+  padding: 15px;
+  height: 170px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.tweetBox > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweetBox__input {
+  display: flex;
+}
+.tweetBox__fileinput {
+  margin-left: 20px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background: transparent;
+  margin: 10px 0;
+  margin-left: 75px;
+  padding: 5px 0;
+  padding-left: 5px;
+}
+.tweetBox__input > input {
+  color: white;
+  flex: 1;
+  width: 100%;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+  padding-left: 5px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background: transparent;
+}
+
+.tweetBox form > button {
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  float: left;
+  color: white;
+  background: #1da1f2;
+  width: 100px;
+  height: 40px;
+  margin: 10px auto;
+  text-transform: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.tweetBox form > button:hover {
+  background: #0a80c9;
+}
+
+.tweetBox__avatar {
+  width: 55px !important;
+  height: 55px !important;
+}

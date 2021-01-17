@@ -1,0 +1,65 @@
+.sidebarLeft {
+  flex: 0.25;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+.sidebarLeft__top > button {
+  color: white;
+  background: #1da1f2;
+  width: 210px;
+  height: 50px;
+  margin: 10px auto;
+  text-transform: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.sidebarLeft__top > button:hover {
+  background: #0a80c9;
+}
+
+.twitterIcon {
+  font-size: 45px !important;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.sidebarLeft__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 250px;
+  width: 100%;
+  padding: 5px 15px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.sidebarLeft__bottom:hover {
+  background: #253341;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.sidebarLeft__bottom > div > p {
+  color: gray;
+  font-size: 14px;
+}
